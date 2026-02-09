@@ -39,9 +39,12 @@ export const OrdersTable = ({ orders }: OrdersTableProps) => {
           >
             <div className="flex-1 text-left">
               <p className="font-semibold text-gray-900">
-                {order.customerName}
+                {`Klient: ${order.customerName}`}
               </p>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-600 mt-1">
+                {`Adres: ${order.customerAddress}`}
+              </p>
+              <p className="text-sm text-gray-500 mt-1">
                 {formatDate(order.createdAt as unknown as string)}
               </p>
             </div>
