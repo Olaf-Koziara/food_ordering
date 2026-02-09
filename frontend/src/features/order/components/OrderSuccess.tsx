@@ -12,7 +12,6 @@ export const OrderSuccess = ({ order, onNewOrder }: OrderSuccessProps) => {
   return (
     <div className="max-w-md mx-auto text-center">
       <Card className="p-8">
-        <div className="text-5xl mb-4">🎉</div>
         <h2 className="text-2xl font-bold text-gray-900 mb-2">
           Zamówienie potwierdzone!
         </h2>

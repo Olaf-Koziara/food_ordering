@@ -33,7 +33,10 @@ export const CustomerStep = ({
   });
 
   return (
-    <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+    <form
+      onSubmit={handleSubmit(onSubmit)}
+      className="space-y-4 w-[50%] mx-auto"
+    >
       <h2 className="text-2xl font-bold text-gray-900 mb-6">Twoje dane</h2>
 
       <Input
