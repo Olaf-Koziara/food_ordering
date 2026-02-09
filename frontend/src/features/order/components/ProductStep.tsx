@@ -44,7 +44,7 @@ export const ProductStep = ({
       <h2 className="text-2xl font-bold text-gray-900 mb-6">
         Wybierz produkty
       </h2>
-      <div className="flex gap-6">
+      <div className="flex flex-col md:flex-row gap-6">
         <div className="flex-1">
           <ProductList
             products={products || []}
